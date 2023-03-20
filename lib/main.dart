@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/Calcuator.dart';
 import 'package:my_app/CounterButton.dart';
 import 'package:my_app/Grid.dart';
+import 'package:my_app/PushData.dart';
+import 'package:my_app/SplashScreen.dart';
 import 'package:my_app/Stack.dart';
 import 'package:my_app/datepickers.dart';
 import 'package:my_app/datew.dart';
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: Stacks(),
+      home: Pushs(),
     );
   }
 }
